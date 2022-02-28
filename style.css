@@ -63,7 +63,7 @@ nav{
     .titulo h1{
         font-size: 3rem;
     }
-/* @keyframes aparecer{
+@keyframes aparecer{
     0% {
         opacity: 0;
     }
@@ -71,14 +71,14 @@ nav{
     100% {
         opacity: 1;
     }
-} */
+}
 .logo{
     grid-column: 1/4;
     grid-row: 1/3;
     padding: 1.5rem 0 0 3rem;
-    /* animation-duration: 5s;
+    animation-duration: 5s;
     animation-name: aparecer;
-    animation-delay: 0s; */
+    animation-delay: 0s;
 }
 .banner{
     display: grid;
