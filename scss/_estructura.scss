@@ -1,0 +1,34 @@
+*{  
+    margin: 0;
+    padding: 0; } 
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    background-color: $negro;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 6rem; }
+
+    
+footer{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    background-color: $color1;
+    padding: 1em 0; }
+        
+header{
+    font-size: 2rem;
+    background-color: $color2;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 5rem 8rem; }
+
+a{
+    color: $negro;
+    text-decoration: none; }
+        
+nav{
+    grid-column: 4/10; }
